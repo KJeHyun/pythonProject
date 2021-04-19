@@ -33,3 +33,17 @@ print("clear list_4 : ", list_4)
 # copy
 list_4 = list_1.copy()
 print("copy list_1 to list_4 : ", list_4)
+# len
+print("length of list_1 : ", len(list_1))
+# max
+print("max of list_1 : ", max(list_1))
+# min
+print("min of list_1 : ", min(list_1))
+# list
+list_5 = list('hello')
+print("list of hello : ", list_5)
+# sorted
+list_6 = sorted(list_5)
+print("sorted hello list : ", list_6)
+# ==
+print("is list_5 same as list_6 : ", list_5 == list_6)
